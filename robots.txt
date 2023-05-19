@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://parhamvs.github.io/sitemap.xml
