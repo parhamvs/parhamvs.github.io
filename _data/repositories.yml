@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - parhamvs
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - parhamvs/CNN-MINST-dataset
+  - parhamvs/Transfer-Learning-CNN--Breast-Cancer
+  - parhamvs/Ternary-Maps-Mechanical-Properties
+  - parhamvs/Alloy-Properties-FactSage-Calculations
+  - parhamvs/Naive-Bayes-text-classifier
+
