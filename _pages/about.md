@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist at <a href='https://lightmetalsmcgill.wixsite.com/lightmetalsresearch/team-4'></a>. 
+subtitle: Data Scientist at <a href='https://lightmetalsmcgill.wixsite.com/lightmetalsresearch/team-4'> McGill's Light Metals Lab </a>. 
 profile:
   align: right
   image: prof_pic.jpg
