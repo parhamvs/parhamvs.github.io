@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist at <a href='https://lightmetalsmcgill.wixsite.com/lightmetalsresearch'> McGill's Light Metals Lab </a>. 
+subtitle: Biomedical Innovation Specialist at <a href='https://resonetics.com'> Resonetics </a>. 
 profile:
   align: right
   image: prof_pic.jpg
