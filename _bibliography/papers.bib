@@ -1,84 +1,30 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{valipoorsalimi2023mechanical,
+  abbr={preprint},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  preview={prd_2023.png},
+  title={Mechanical Property Design of Bio-compatible Mg alloys using Machine-Learning Algorithms},
+  author={Valipoorsalimi, Parham and Sari, Yuksel Asli and Pekguleryuz, Mihriban},
+  journal={Materials & design},
+  year={2023},
+  pdf={https://arxiv.org/pdf/2305.12060.pdf},
+  abstract={Magnesium alloys are attractive options for temporary bio-implants because of their bio compatibility, controlled corrosion rate, and similarity to natural bone in terms of stiffness and density. Nevertheless, their low mechanical strength hinders their use as cardiovascular stents and bone substitutes. While it is possible to engineer alloys with the desired mechanical strength, optimizing the mechanical properties of biocompatible magnesium alloys using conventional experimental methods is time-consuming and expensive. Therefore, Artificial Intelligence (AI) can be leveraged to streamline the alloy design process and reduce the required time. In this study, a machine learning model was developed to predict the yield strength (YS) of biocompatible magnesium alloys with an R2 accuracy of 91%. The predictive model was then validated using the CALPHAD technique and thermodynamics calculations. Next, the predictive model was employed as the fitness function of a genetic algorithm to optimize the alloy composition for high-strength biocompatible magnesium implants. As a result, two alloys were proposed and synthesized, exhibiting YS values of 108 and 113 MPa, respectively. These values were substantially higher than those of conventional magnesium biocompatible alloys and closer to the YS and compressive strength of natural bone. Finally, the synthesized alloys were subjected to microstructure analysis and mechanical property testing to validate and evaluate the performance of the proposed AI-based alloy design approach for creating alloys with specific properties suitable for diverse applications.},
+  code={https://github.com/parhamvs/Alloy-Properties-FactSage-Calculations},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{asadi2023towards,
+  abbr={preprint},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  preview={prd_2023.png},
+  title={Prototype-Sample Relation Distillation: Towards Replay-Free Continual Learning},
+  author={Asadi, Nader and Davari, MohammadReza and Mudur, Sudhir and Aljundi, Rahaf and Belilovsky, Eugene},
+  booktitle={ICML},
+  year={2023},
+  selected={true},
+  arxiv={2303.14771},
+  pdf={https://arxiv.org/pdf/2303.14771.pdf},
+  abstract={In Continual learning (CL) balancing effective adaptation while combating catastrophic forgetting is a central challenge. Many of the recent best-performing methods utilize various forms of prior task data, e.g. a replay buffer, to tackle the catastrophic forgetting problem. Having access to previous task data can be restrictive in many real-world scenarios, for example when task data is sensitive or proprietary. To overcome the necessity of using previous tasks data, in this work, we start with strong representation learning methods that have been shown to be less prone to forgetting. We propose a holistic approach to jointly learn the representation and class prototypes while maintaining the relevance of old class prototypes and their embedded similarities. Specifically, samples are mapped to an embedding space where the representations are learned using a supervised contrastive loss. Class prototypes are evolved continually in the same latent space, enabling learning and prediction at any point. To continually adapt the prototypes without keeping any prior task data, we propose a novel distillation loss that constrains class prototypes to maintain relative similarities as compared to new task data. This method yields state-of-the-art performance in the task-incremental setting where we are able to outperform other methods that both use no data as well as approaches relying on large amounts of data. Our method is also shown to provide strong performance in the class-incremental setting without using any stored data points.},
+  code={https://github.com/naderAsadi/CLHive},
 }
